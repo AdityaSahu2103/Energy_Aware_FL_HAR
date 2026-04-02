@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datasets
+human+activity+recognition+using+smartphones/
+*.csv
+*.txt
+
+# Exclude results (optional, but usually good to ignore generated large plots/json, except if you want to keep them)
+# If you want to keep final plots, uncomment the following line and comment out the blanket results/ ignore
+# results/experiment_metrics.json 
+results/
+
+# Temporary files
+.DS_Store
+tmp/
